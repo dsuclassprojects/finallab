@@ -14,24 +14,24 @@ struct dog
 {
 	int age;
 	char name = [10];
-};
+}
 
 
 void main()
 {
-	struct (dog) thing1:
+	struct (dog) thing1;
 	struct dog thing2;
 
 	thing1.age = [5];
-	thing2.age = 13;
+	thing2.age = [13];
 	
-	puts{"What is your dogs name? "};
+	puts("What is your dogs name? ");
 	gets(thing1.names);
 
 	strcpy(thing2.name, "Buster");
 
-	printf("Name: %i\n",thing1.name );
-	printf("Age: %i\n",thing1.age):
-	printf("Thing2 Name: %s\n,thing2.name);
-	printf("Thing2 Age %i\n',thing2.age);
+	printf("Name: %s\n",thing1.name );
+	printf("Age: %i\n",thing1.age);
+	printf("Thing2 Name: %s\n",thing2.name);
+	printf("Thing2 Age %i\n",thing2.age);
 }
