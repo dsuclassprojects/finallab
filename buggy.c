@@ -7,7 +7,7 @@
 3. create a new branch on git
 4. git push changed buggy.c
 5. create pull request with your name and changes you made
-6. screenshot what you did and post it in the dropbox
+6. Send a screenshot of your pull request and put it in the dropbox
 
 */
 
