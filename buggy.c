@@ -16,7 +16,6 @@ struct dog
 	char name[10];
 };
 
-
 void main()
 {
 	struct dog thing1;
