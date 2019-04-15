@@ -34,4 +34,6 @@ void main()
 	printf("Age: %i\n",thing1.age):
 	printf("Thing2 Name: %s\n",thing2.name); //closed quote
 	printf("Thing2 Age %i\n",thing2.age); //closed quote
+	
+	return 0;
 }
