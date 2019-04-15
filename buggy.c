@@ -8,6 +8,7 @@
 4. git push changed buggy.c
 5. create pull request with your name and changes you made
 
+
 */
 
 struct dog // create new struct called 'dog'
