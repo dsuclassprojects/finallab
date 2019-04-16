@@ -10,28 +10,28 @@
 
 */
 
-struct dog
+struct dog //declare struct with the name dog
 {
-	int age;
-	char name = [10];
+	int age; //declare int variable with the name age
+	char name [10]; //declare string variable with the name name
 };
 
 
 void main()
 {
-	struct (dog) thing1:
-	struct dog thing2;
+	struct dog thing1; //declare new struct within main
+	struct dog thing2; //declare second new struct within main
 
-	thing1.age = [5];
-	thing2.age = 13;
-	
-	puts{"What is your dogs name? "};
-	gets(thing1.names);
+	thing1.age = 5; //assign variable "age" the value 5 in struct thing1
+	thing2.age = 13; //assign variable "age" the value 13 in struct thing2
 
-	strcpy(thing2.name, "Buster");
+	printf("What is your dogs name? ");//prints message
+	gets(thing1.name); //accepts user input for variable "name" in thing1
 
-	printf("Name: %i\n",thing1.name );
-	printf("Age: %i\n",thing1.age):
-	printf("Thing2 Name: %s\n,thing2.name);
-	printf("Thing2 Age %i\n',thing2.age);
+	strcpy(thing2.name, "Buster"); //assigns variable "name" in thing 2 with a value
+
+	printf("Name: %s\n",thing1.name ); //prints text including "name" from thing1
+	printf("Age: %i\n",thing1.age); //prints text including "age" from thing1
+	printf("Thing2 Name: %s\n",thing2.name); //prints text including "name" from thing2
+	printf("Thing2 Age %i\n",thing2.age); //prints text inluding "age" from thing2
 }
