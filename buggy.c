@@ -13,25 +13,25 @@
 struct dog
 {
 	int age;
-	char name = [10];
+	char name[10]; //changed name = [10] to name[10]
 };
 
 
 void main()
 {
-	struct (dog) thing1:
+	struct dog thing1; //removed parentheses from dog and changed the colon to a semicolon
 	struct dog thing2;
 
-	thing1.age = [5];
+	thing1.age = 5; //removed bracets
 	thing2.age = 13;
 	
-	puts{"What is your dogs name? "};
-	gets(thing1.names);
+	puts("What is your dogs name? "); //replaced {} with ()
+	gets(thing1.name); //removed s from name(s)
 
 	strcpy(thing2.name, "Buster");
 
-	printf("Name: %i\n",thing1.name );
-	printf("Age: %i\n",thing1.age):
-	printf("Thing2 Name: %s\n,thing2.name);
-	printf("Thing2 Age %i\n',thing2.age);
+	printf("Name: %s\n",thing1.name ); //changed %i to %s
+	printf("Age: %i\n",thing1.age); // replaced colon with semicolon
+	printf("Thing2 Name: %s\n",thing2.name); //Added ""
+	printf("Thing2 Age %i\n",thing2.age); //Replaced '' with ""
 }
