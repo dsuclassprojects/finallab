@@ -13,7 +13,7 @@
 struct dog
 {
 	int age;
-	char name[10];	//fixed declaration, removed "=" and space
+	char name[10];	//fixed declaration, removed "=", space
 };
 
 
