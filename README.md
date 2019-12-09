@@ -1,5 +1,4 @@
 # finallab
 
-This is going to be our final assignment for csc150.  We are going to do reviews after this for our Final Exam.   
-
-Have a wonderful Thanksgiving!!!
+Made appropriate changes within buggy.c file along with notes of changes
+made. Have a wonderful holiday season.
