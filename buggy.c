@@ -7,6 +7,7 @@
 3. create a new branch on git
 4. git push changed buggy.c
 5. create pull request with your name and changes you made
+ 6. Make Corrections
 
 */
 
@@ -19,7 +20,7 @@ struct dog
 
 void main()
 {
-	struct (dog) thing1:
+    struct (dog) thing1; //changed to semicolon
 	struct dog thing2;
 
 	thing1.age = [5];
@@ -31,7 +32,7 @@ void main()
 	strcpy(thing2.name, "Buster");
 
 	printf("Name: %i\n",thing1.name );
-	printf("Age: %i\n",thing1.age):
+    printf("Age: %i\n",thing1.age); //Changed to semicolon
 	printf("Thing2 Name: %s\n,thing2.name);
 	printf("Thing2 Age %i\n',thing2.age);
 }
