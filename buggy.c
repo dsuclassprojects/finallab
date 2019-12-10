@@ -34,5 +34,5 @@ void main()
 	printf("Name: %i\n",thing1.name );
     printf("Age: %i\n",thing1.age); //Changed to semicolon
 	printf("Thing2 Name: %s\n,thing2.name);
-	printf("Thing2 Age %i\n',thing2.age);
+	printf("Thing2 Age %i\n",thing2.age); //corrected qoutations
 }
